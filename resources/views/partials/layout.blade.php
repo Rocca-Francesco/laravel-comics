@@ -11,11 +11,13 @@
   @vite('resources/js/app.js')
 </head>
 <body>
-  <div class="container">
-    <div class="text-end ">
-      <span class="me-4">DC POWER&trade; VISA&reg;</span>
-      <span class="dropdown-toggle">ADDITIONAL DC SITES</span>
-    </div>
+  <div class="beggingBlue">
+    <div class="container">
+      <div class="text-end">
+        <span class="me-4">DC POWER&trade; VISA&reg;</span>
+        <span class="dropdown-toggle">ADDITIONAL DC SITES</span>
+      </div>
+  </div>
   </div>
   <nav class="navbar navbar-expand-lg bg-light">
   <div class="container">
@@ -77,6 +79,9 @@
 
 <div class="jumbotron">
 </div>
+
+
+@yield('content')
 
 
 <section id="shoppingZone">
