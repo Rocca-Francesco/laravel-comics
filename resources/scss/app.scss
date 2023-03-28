@@ -7,3 +7,97 @@
 img {
     max-height: 150px;
 }
+
+.logoNav {
+    width: 3rem;
+}
+
+.jumbotron {
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 30rem;
+}
+
+#utilsSocials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 4rem;
+    padding: 1rem 3rem;
+
+    background-color: #303030;
+
+    button {
+        background-color: #303030;
+        border: 2px solid #0282f9;
+        padding: 0.4rem;
+        color: white;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+
+        span {
+            padding: 0.2rem;
+            color: #0282f9;
+
+            img {
+                width: 1.5rem;
+            }
+        }
+    }
+}
+
+#shoppingZone {
+    height: 5rem;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0282f9;
+    font-weight: bold;
+    color: white;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 3rem;
+            padding: 0.5rem;
+        }
+    }
+}
+
+#footerLinks {
+    padding: 1rem 3rem;
+    background-image: url(/resources/img/footer-bg.jpg);
+    display: flex;
+
+    div {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        color: white;
+        padding: 0.5rem 0;
+    }
+
+    ul {
+        list-style: none;
+        color: #797979;
+        padding: 0rem;
+        font-size: 0.8rem;
+
+        li {
+
+            font-weight: bold;
+        }
+    }
+}
